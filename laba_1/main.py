@@ -57,7 +57,7 @@ if a <= b:
 
 # Задача №4
 # Ввести целое число и определить, верно ли, что все его цифры расположены в порядке возрастания.
-print("Задача №4")
+print("\nЗадача №4")
 number = int(input("Введите ваше число: "))
 
 if number < 0:
@@ -73,7 +73,7 @@ while number > 0:
 	if a < b:
 		is_increasing = False
 		break
-	print(a, b)
+	# print(a, b)
 
 if is_increasing:
 	print("Все цифры в числе расположены в порядке возрастания")
